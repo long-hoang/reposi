@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+
+
 .clear {
   clear:both
 }
@@ -37,8 +39,9 @@
 
 .links a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 1px solid #187FFF;
+  font-family: 'chunkfiveroman', sans-serif;
 }
 
 header {
@@ -47,4 +50,12 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+font-family: 'chunkfiveroman', sans-serif;
+}
+
+h2 {
+font-family: 'chunkfiveroman', sans-serif;
 }
