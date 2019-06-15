@@ -42,6 +42,11 @@
 
 
     <div class = "container" >
+      <% if flash[:error].present? %>
+        <div class="col-10 offset-1 alert alert danger">
+          <%= flash[:error] %>
+        </div>
+      <% end %>
       <%= yield %>
     </div>
 
